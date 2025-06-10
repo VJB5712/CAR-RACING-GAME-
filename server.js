@@ -24,7 +24,7 @@ app.post('/send-code', (req, res) => {
   otpStore[email] = code;
 
   const mailOptions = {
-    from: 'yourgmail@gmail.com',
+    from: 'vjathinbhargav1st@gmail.com',
     to: email,
     subject: 'Your Verification Code',
     text: `Your verification code is: ${code}`
